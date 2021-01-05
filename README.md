@@ -82,4 +82,6 @@ if (process.env.NODE_ENV !== 'production') {
 const port = process.env.PORT|| 3000
 app.listen(port , () => console.log(`Listening on port ${port}`));
 ```
- 
+
+## 후기
+생각보다 뭔가 대단한 무언가는 없는거같아서 더 심화로 어떻게 쓰는지 한번 보려고 한다! 나의 경우엔 간단하게 API 만들어 쓸 정도면 되서(당분간은...! 서버개발자가 될줄알았는데, 어쩌다보니 Frontend 에 한동안 집중할거니까...!) 좀 더 다른것들을 한번 살펴보면서 정신적 휴식을 취해볼려고 한다!
