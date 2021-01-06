@@ -108,7 +108,7 @@ app.listen(port , () => console.log(`Listening on port ${port}`));
 
 
 - React app: mern-exercise-tracker
-
+    - 다소 귀찮은 감이 있어... 언젠가 하겠지 하는 마음으로 떠나겠다. 
 
 - backend:
   - to simpify things, make `backend` folder inside `mern-exercies-tracker`
@@ -127,3 +127,14 @@ app.listen(port , () => console.log(`Listening on port ${port}`));
         console.log("MongoDB database connection established successfully");
     })
     ```
+
+## MERN stack 후기
+재미있었던 것 같다. 오래만에 도커 설정 관련해서 이슈도 만나보고 재밌네. Django로 개발할때랑은 다르게 확실히 nodejs는 rest api를 개발하는 것에만 집중할 수 있을 것 같아, 간단한 토이 프로젝트를 할때 부담없이 다룰 수 있을 것 같다!(보안 이슈 등에 대한것은 차차 공부해야하는 것이겠지만...!)
+
+mongodb는 처음 다뤄보는데, 여기서는 간단한것만 다루긴했지만, 뭔가 신기하긴하다. 아직 낯선 개념이긴한데, 간단히 블로그 글만 찾아봐도 join이 없이 하도록 해라고 하는게 신기한것 같다. 유튜브 영상에서도 그냥 진짜 join이런거 없이 뭔가 처리한다. 다음에 좀더 심도있게 다뤄봐야겠지만, 간단하게 mongoose라는 라이브러리고 mongodb를 node환경에서 쉽게 다룰 수 있다는 것을 배워서 좋은 것 같다. 
+
+next js에서도 mongoose로 데이터를 보여주면 좋겠단 생각을 했는데, [역시나 그렇다](https://stackoverflow.com/questions/60660488/is-it-possible-to-run-mongoose-inside-next-js-api) 
+
+## Express 공부 마무리!
+재밌었다~ 
+
